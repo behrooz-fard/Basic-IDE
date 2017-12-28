@@ -4,6 +4,7 @@
 <?import javafx.scene.layout.*?>
 
 <?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.text.Text?>
 <VBox id="main_Vbox"
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="sample.MenuController">

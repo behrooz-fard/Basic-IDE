@@ -1,10 +1,11 @@
 package sample;
 
 import javafx.scene.control.TextArea;
-import sample.Main;
 
-import java.io.*;
-
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 public class Controller {
 
     static void openFileInTextEditor(File file){
@@ -29,4 +30,7 @@ public class Controller {
         }
 
     }
+//    static void textEditorChiz(){
+//        ANTLRParser parser = new ANTLRParser(new TokenStream());
+//    }
 }
