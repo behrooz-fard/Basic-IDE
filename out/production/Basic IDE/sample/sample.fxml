@@ -17,22 +17,31 @@
                     <MenuItem text="Open" onAction="#openFile" accelerator="Shortcut+O"/>
                     <MenuItem text="Save"/>
                     <MenuItem text="Save As"/>
-                    <SeparatorMenuItem  />
+                    <SeparatorMenuItem/>
                     <MenuItem text="Exit"/>
                 </items>
             </Menu>
             <Menu text="Edit">
                 <items>
-                    <MenuItem text="Copy"/>
                     <MenuItem text="Cut"/>
+                    <MenuItem text="Copy"/>
                     <MenuItem text="Paste"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Find"/>
+                    <MenuItem text="Replace"/>
+                </items>
+            </Menu>
+            <Menu text="Run">
+                <items>
+                    <MenuItem text="Run"/>
+                    <MenuItem text="Compile"/>
                 </items>
             </Menu>
         </menus>
     </MenuBar>
     <!--<GridPane>-->
 
-        <TextArea  fx:id="main_text_area"/>
+    <TextArea fx:id="main_text_area"/>
 
     <!--</GridPane>-->
 </VBox>

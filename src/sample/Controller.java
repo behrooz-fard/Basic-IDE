@@ -6,9 +6,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+
 public class Controller {
 
-    static void openFileInTextEditor(File file){
+    static void openFileInTextEditor(File file) {
         //get text area
         TextArea textArea = (TextArea) Main.scene.lookup("#main_text_area");
 
@@ -24,7 +25,7 @@ public class Controller {
             textArea.setText(str);
 
         } catch (FileNotFoundException e) {
-           System.out.println("FILE NOT FOUND");
+            System.out.println("FILE NOT FOUND");
         } catch (IOException e) {
             e.printStackTrace();
         }
