@@ -1,8 +1,47 @@
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<GridPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.text.Text?>
+<VBox id="main_Vbox"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="sample.MenuController">
+
+    <MenuBar fx:id="menuBar" onKeyPressed="#handleInput">
+        <menus>
+            <Menu text="File">
+                <items>
+                    <MenuItem text="New"/>
+                    <MenuItem text="Open" onAction="#openFile" accelerator="Shortcut+O"/>
+                    <MenuItem text="Save"/>
+                    <MenuItem text="Save As"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Exit"/>
+                </items>
+            </Menu>
+            <Menu text="Edit">
+                <items>
+                    <MenuItem text="Cut"/>
+                    <MenuItem text="Copy"/>
+                    <MenuItem text="Paste"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem text="Find"/>
+                    <MenuItem text="Replace"/>
+                </items>
+            </Menu>
+            <Menu text="Run">
+                <items>
+                    <MenuItem text="Run"/>
+                    <MenuItem text="Compile"/>
+                </items>
+            </Menu>
+        </menus>
+    </MenuBar>
+    <!--<GridPane>-->
+
+    <TextArea fx:id="main_text_area"/>
+
+    <!--</GridPane>-->
+</VBox>
