@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ResourceBundle;
 
 public class MenuController implements Initializable {
@@ -70,6 +71,26 @@ public class MenuController implements Initializable {
 
             // ...write to the debug console
             System.out.println(ex.getMessage());
+        }
+    }
+
+    public void saveFileAs() {
+
+        FileChooser fileChooser = new FileChooser();
+        File dest = fileChooser.showSaveDialog(new Stage());
+        if (dest != null) {
+            try {
+                TextArea textArea = (TextArea) Main.scene.lookup("#main_text_area");
+
+                // create a buffered writer to write to a file
+                BufferedWriter out = new BufferedWriter(new FileWriter(dest.getPath()));
+                out.write(textArea.getText()); // write the contents of the TextArea to the file
+                out.close(); // close the file stream
+            } catch (IOException ex) {
+
+                // ...write to the debug console
+                System.out.println(ex.getMessage());
+            }
         }
     }
 }
