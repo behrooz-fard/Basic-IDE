@@ -15,8 +15,8 @@
                 <items>
                     <MenuItem text="New"/>
                     <MenuItem text="Open" onAction="#openFile" accelerator="Shortcut+O"/>
-                    <MenuItem text="Save"/>
-                    <MenuItem text="Save As"/>
+                    <MenuItem text="Save" onAction="#saveFile" accelerator="Shortcut+s"/>
+                    <MenuItem text="Save As" onAction="#saveFileAs" accelerator="Shortcut+Shift+s"/>
                     <SeparatorMenuItem/>
                     <MenuItem text="Exit"/>
                 </items>
