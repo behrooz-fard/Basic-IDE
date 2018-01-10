@@ -93,4 +93,22 @@ public class MenuController implements Initializable {
             }
         }
     }
+
+    public void cut() {
+
+        TextArea textArea = (TextArea) Main.scene.lookup("#main_text_area");
+        textArea.cut();
+    }
+
+    public void copy() {
+
+        TextArea textArea = (TextArea) Main.scene.lookup("#main_text_area");
+        textArea.copy();
+    }
+
+    public void paste() {
+
+        TextArea textArea = (TextArea) Main.scene.lookup("#main_text_area");
+        textArea.paste();
+    }
 }

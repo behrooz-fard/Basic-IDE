@@ -23,9 +23,9 @@
             </Menu>
             <Menu text="Edit">
                 <items>
-                    <MenuItem text="Cut"/>
-                    <MenuItem text="Copy"/>
-                    <MenuItem text="Paste"/>
+                    <MenuItem text="Cut" onAction="#cut" accelerator="Shortcut+x"/>
+                    <MenuItem text="Copy" onAction="#copy" accelerator="Shortcut+c"/>
+                    <MenuItem text="Paste" onAction="#paste" accelerator="Shortcut+v"/>
                     <SeparatorMenuItem/>
                     <MenuItem text="Find"/>
                     <MenuItem text="Replace"/>
