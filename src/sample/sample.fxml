@@ -6,6 +6,7 @@
 <?import javafx.scene.input.KeyCodeCombination?>
 <?import javafx.scene.text.Text?>
 <?import org.fxmisc.richtext.CodeArea?>
+<?import javafx.scene.web.WebView?>
 <VBox id="main_Vbox"
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="sample.MenuController">
@@ -19,7 +20,7 @@
                     <MenuItem text="Save" onAction="#saveFile" accelerator="Shortcut+s"/>
                     <MenuItem text="Save As" onAction="#saveFileAs" accelerator="Shortcut+Shift+s"/>
                     <SeparatorMenuItem/>
-                    <MenuItem text="Exit"/>
+                    <MenuItem text="Exit" onAction="#exit" accelerator="Alt + F4"/>
                 </items>
             </Menu>
             <Menu text="Edit">
@@ -34,15 +35,15 @@
             </Menu>
             <Menu text="Run">
                 <items>
+                    <MenuItem text="Compile" onAction="#compile" accelerator="Shift + F9"/>
                     <MenuItem text="Run"/>
-                    <MenuItem text="Compile"/>
                 </items>
             </Menu>
         </menus>
     </MenuBar>
     <!--<GridPane>-->
 
-    <CodeArea fx:id="mainCodeArea"/>
-
+    <CodeArea fx:id="mainCodeArea" />
+    <!--<WebView fx:id="mainWebView"/>-->
     <!--</GridPane>-->
 </VBox>

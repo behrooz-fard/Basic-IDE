@@ -21,9 +21,11 @@ public class Controller {
             fis.close();
             String str = new String(data, "UTF-8");
 
-
             //put text in code area
             codeArea.replaceText(str);
+            Highlighter.setString(str);
+            Highlighter.Highlight();
+
 
         } catch (FileNotFoundException e) {
             System.out.println("FILE NOT FOUND");

@@ -8,10 +8,8 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import org.fxmisc.richtext.CodeArea;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.awt.*;
+import java.io.*;
 import java.util.ResourceBundle;
 
 public class MenuController implements Initializable {
@@ -48,11 +46,15 @@ public class MenuController implements Initializable {
         //open file in code area
         Controller.openFileInTextEditor(chosenFile);
 
+
+        CodeArea codeArea = (CodeArea) Main.scene.lookup("#mainCodeArea");
+
     }
 
     @Override
     public void initialize(java.net.URL arg0, ResourceBundle arg1) {
         menuBar.setFocusTraversable(true);
+//        WebView webView = (WebView) Main.scene.lookup("webView");
 
     }
 
@@ -110,5 +112,43 @@ public class MenuController implements Initializable {
 
         mainCodeArea = (CodeArea) Main.scene.lookup("#mainCodeArea");
         mainCodeArea.paste();
+    }
+    public void compile(){
+        System.out.println("COMPILE");
+//        if (chosenFile == null){
+//
+//        }
+        System.out.println("FILE: " + chosenFile.getAbsolutePath());
+        String lang;
+        if (chosenFile.getAbsolutePath().endsWith(".py"))
+            lang = "Python";
+        else if (chosenFile.getAbsolutePath().endsWith(".java"))
+            lang = "java";
+        else if (chosenFile.getAbsolutePath().endsWith(".c"))
+            lang = "C";
+        else if (chosenFile.getAbsolutePath().endsWith(".cpp"))
+            lang = "C++";
+        else
+            lang = "!";
+
+        if (lang.equals("Python")){
+            System.out.println("IS PYTHON");
+            try {
+                Console console = System.console();
+                if(console == null && !GraphicsEnvironment.isHeadless()){
+                    Runtime.getRuntime().exec(new String[]{"/usr/bin/terminal", "python3 ", chosenFile.getAbsolutePath()});
+                }else{
+                    System.out.println("Program has ended, please type 'exit' to close the console");
+                }
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+    @FXML
+    void exit(){
+        System.exit(1);
     }
 }
