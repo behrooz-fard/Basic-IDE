@@ -22,7 +22,7 @@ public class Main extends Application {
         scene = new Scene(root, 2000, 1000);
         primaryStage.setTitle("Basic IDE");
         primaryStage.setScene(scene);
-        Node textArea = scene.lookup("#main_text_area");
+        Node codeArea = scene.lookup("#mainCodeArea");
         primaryStage.show();
 
 
