@@ -1,6 +1,6 @@
 package sample;
 
-import javafx.scene.control.TextArea;
+import org.fxmisc.richtext.CodeArea;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,8 +10,8 @@ import java.io.IOException;
 public class Controller {
 
     static void openFileInTextEditor(File file) {
-        //get text area
-        TextArea textArea = (TextArea) Main.scene.lookup("#main_text_area");
+        //get code area
+        CodeArea codeArea = (CodeArea) Main.scene.lookup("#mainCodeArea");
 
         try {
             //reading file
@@ -21,8 +21,9 @@ public class Controller {
             fis.close();
             String str = new String(data, "UTF-8");
 
-            //put text in text area
-            textArea.setText(str);
+
+            //put text in code area
+            codeArea.replaceText(str);
 
         } catch (FileNotFoundException e) {
             System.out.println("FILE NOT FOUND");

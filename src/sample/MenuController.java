@@ -3,10 +3,10 @@ package sample;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.MenuBar;
-import javafx.scene.control.TextArea;
 import javafx.scene.input.InputEvent;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import org.fxmisc.richtext.CodeArea;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -15,9 +15,11 @@ import java.io.IOException;
 import java.util.ResourceBundle;
 
 public class MenuController implements Initializable {
+
     @FXML
     private MenuBar menuBar;
     private File chosenFile;
+    public CodeArea mainCodeArea;
 
 
     @FXML
@@ -43,7 +45,7 @@ public class MenuController implements Initializable {
         chosenFile = chooser.showOpenDialog(new Stage());
         System.out.println(chosenFile.getAbsolutePath() + " SELECTED");
 
-        //open file in text area
+        //open file in code area
         Controller.openFileInTextEditor(chosenFile);
 
     }
@@ -59,12 +61,10 @@ public class MenuController implements Initializable {
 
         try {
 
-            //get text area
-            TextArea textArea = (TextArea) Main.scene.lookup("#main_text_area");
-
+            mainCodeArea = (CodeArea) Main.scene.lookup("#mainCodeArea");
             // create a buffered writer to write to a file
             BufferedWriter out = new BufferedWriter(new FileWriter(chosenFile.getPath()));
-            out.write(textArea.getText()); // write the contents of the TextArea to the file
+            out.write(mainCodeArea.getText()); // write the contents of the TextArea to the file
             out.close(); // close the file stream
 
         } catch (Exception ex) {
@@ -80,11 +80,11 @@ public class MenuController implements Initializable {
         File dest = fileChooser.showSaveDialog(new Stage());
         if (dest != null) {
             try {
-                TextArea textArea = (TextArea) Main.scene.lookup("#main_text_area");
 
+                mainCodeArea = (CodeArea) Main.scene.lookup("#mainCodeArea");
                 // create a buffered writer to write to a file
                 BufferedWriter out = new BufferedWriter(new FileWriter(dest.getPath()));
-                out.write(textArea.getText()); // write the contents of the TextArea to the file
+                out.write(mainCodeArea.getText()); // write the contents of the TextArea to the file
                 out.close(); // close the file stream
             } catch (IOException ex) {
 
@@ -96,19 +96,19 @@ public class MenuController implements Initializable {
 
     public void cut() {
 
-        TextArea textArea = (TextArea) Main.scene.lookup("#main_text_area");
-        textArea.cut();
+        mainCodeArea = (CodeArea) Main.scene.lookup("#mainCodeArea");
+        mainCodeArea.cut();
     }
 
     public void copy() {
 
-        TextArea textArea = (TextArea) Main.scene.lookup("#main_text_area");
-        textArea.copy();
+        mainCodeArea = (CodeArea) Main.scene.lookup("#mainCodeArea");
+        mainCodeArea.copy();
     }
 
     public void paste() {
 
-        TextArea textArea = (TextArea) Main.scene.lookup("#main_text_area");
-        textArea.paste();
+        mainCodeArea = (CodeArea) Main.scene.lookup("#mainCodeArea");
+        mainCodeArea.paste();
     }
 }
