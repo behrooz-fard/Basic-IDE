@@ -43,7 +43,8 @@
     </MenuBar>
     <!--<GridPane>-->
 
-    <CodeArea fx:id="mainCodeArea" />
+    <CodeArea fx:id="mainCodeArea"/>
+    <CodeArea fx:id="highlighterCodeArea" text="You Can See Tokens Here..." style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;"/>
     <!--<WebView fx:id="mainWebView"/>-->
     <!--</GridPane>-->
 </VBox>
