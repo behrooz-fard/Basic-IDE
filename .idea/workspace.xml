@@ -2,114 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/CodeArea.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Highlighter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/editor.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Lexer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3.g4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3BaseListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3BaseVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Lexer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Lexer.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Listener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$And_exprContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$And_testContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$AnnassignContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$ArglistContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$ArgumentContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Arith_exprContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Assert_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Async_funcdefContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Async_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$AtomContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Atom_exprContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$AugassignContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Break_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$ClassdefContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Comp_forContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Comp_ifContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Comp_iterContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Comp_opContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$ComparisonContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Compound_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Continue_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$DecoratedContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$DecoratorContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$DecoratorsContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Del_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$DictorsetmakerContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Dotted_as_nameContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Dotted_as_namesContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Dotted_nameContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Encoding_declContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Eval_inputContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Except_clauseContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$ExprContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Expr_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$ExprlistContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$FactorContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$File_inputContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Flow_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$For_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$FuncdefContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Global_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$If_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Import_as_nameContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Import_as_namesContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Import_fromContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Import_nameContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Import_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$LambdefContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Lambdef_nocondContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Nonlocal_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Not_testContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Or_testContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$ParametersContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Pass_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$PowerContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Raise_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Return_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Shift_exprContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Simple_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Single_inputContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$SliceopContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Small_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Star_exprContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$StmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$SubscriptContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$SubscriptlistContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$SuiteContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$TermContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$TestContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Test_nocondContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$TestlistContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Testlist_compContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Testlist_star_exprContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$TfpdefContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$TrailerContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Try_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$TypedargslistContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$VarargslistContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$VfpdefContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$While_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$With_itemContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$With_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Xor_exprContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Yield_argContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Yield_exprContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser$Yield_stmtContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Parser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Python3Visitor.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cParser/C.tokens" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cParser/CBaseListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cParser/CLexer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cParser/CLexer.tokens" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cParser/CListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cParser/CParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cppParser/CPP14.g4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cppParser/CPP14.tokens" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cppParser/CPP14BaseListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cppParser/CPP14Lexer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cppParser/CPP14Lexer.tokens" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cppParser/CPP14Listener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cppParser/CPP14Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaParser/JavaLexer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javaParser/JavaLexer.tokens" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Controller.class" afterPath="$PROJECT_DIR$/out/production/Basic IDE/sample/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Main.class" afterPath="$PROJECT_DIR$/out/production/Basic IDE/sample/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/Highlighter.class" afterPath="$PROJECT_DIR$/out/production/Basic IDE/sample/Highlighter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/MenuController.class" afterPath="$PROJECT_DIR$/out/production/Basic IDE/sample/MenuController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Basic IDE/sample/sample.fxml" afterPath="$PROJECT_DIR$/out/production/Basic IDE/sample/sample.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Highlighter.java" afterPath="$PROJECT_DIR$/src/sample/Highlighter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/MenuController.java" afterPath="$PROJECT_DIR$/src/sample/MenuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/sample.fxml" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -175,17 +89,14 @@
       <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/MenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3245">
-              <caret line="139" column="22" lean-forward="false" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+            <state relative-caret-position="385">
+              <caret line="123" column="54" lean-forward="false" selection-start-line="123" selection-start-column="54" selection-end-line="123" selection-end-column="54" />
               <folding>
-                <element signature="method#openFile#0;class#MenuController#0" expanded="false" />
                 <element signature="method#initialize#0;class#MenuController#0" expanded="false" />
                 <element signature="method#saveFile#0;class#MenuController#0" expanded="false" />
                 <element signature="method#saveFileAs#0;class#MenuController#0" expanded="false" />
                 <element signature="method#cut#0;class#MenuController#0" expanded="false" />
                 <element signature="method#copy#0;class#MenuController#0" expanded="false" />
-                <element signature="e#4509#4510#0" expanded="true" />
-                <element signature="e#4539#4540#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,8 +105,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1757">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="825">
+              <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,20 +114,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Highlighter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Highlighter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Highlighter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+            <state relative-caret-position="440">
+              <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CodeArea.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CLexer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cParser/CLexer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CPP14Lexer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cppParser/CPP14Lexer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaLexer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javaParser/JavaLexer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CodeArea.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/CodeArea.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
@@ -232,7 +178,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="998">
+            <state relative-caret-position="1210">
               <caret line="22" column="80" lean-forward="false" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
               <folding />
             </state>
@@ -242,11 +188,9 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1925">
+              <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -315,14 +259,17 @@
         <option value="$PROJECT_DIR$/src/sample/Python3Parser.java" />
         <option value="$PROJECT_DIR$/src/sample/Python3Visitor.java" />
         <option value="$PROJECT_DIR$/src/sample/CodeArea.css" />
-        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/editor/home.html" />
         <option value="$PROJECT_DIR$/src/editor/config.js" />
         <option value="$PROJECT_DIR$/src/sample/editor.html" />
-        <option value="$PROJECT_DIR$/src/sample/Highlighter.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/javaParser/JavaLexer.java" />
+        <option value="$PROJECT_DIR$/src/cppParser/CPP14Lexer.java" />
+        <option value="$PROJECT_DIR$/src/cParser/CLexer.java" />
+        <option value="$PROJECT_DIR$/src/sample/Highlighter.java" />
       </list>
     </option>
   </component>
@@ -365,8 +312,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -412,8 +357,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Basic-IDE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Basic-IDE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cppParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Basic-IDE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Basic-IDE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -442,12 +425,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/javaParser" />
+      <recent name="$PROJECT_DIR$/src/cppParser" />
+      <recent name="$PROJECT_DIR$/src/cParser" />
+      <recent name="$PROJECT_DIR$/src/pythonParser" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/sample" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pythonParser" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -925,11 +911,12 @@
       <workItem from="1516268148326" duration="10626000" />
       <workItem from="1516287518850" duration="2568000" />
       <workItem from="1516290374747" duration="3199000" />
+      <workItem from="1516357816514" duration="4324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51895000" />
+    <option name="totallyTimeSpent" value="56219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="92" y="7" width="3749" height="2154" extended-state="6" />
@@ -1020,7 +1007,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1029,50 +1016,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="15" column="89" lean-forward="false" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1705">
           <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
           <folding>
-            <element signature="method#openFile#0;class#MenuController#0" expanded="false" />
             <element signature="method#initialize#0;class#MenuController#0" expanded="false" />
             <element signature="method#saveFile#0;class#MenuController#0" expanded="false" />
             <element signature="method#saveFileAs#0;class#MenuController#0" expanded="false" />
             <element signature="method#cut#0;class#MenuController#0" expanded="false" />
             <element signature="method#copy#0;class#MenuController#0" expanded="false" />
-            <element signature="e#4509#4510#0" expanded="true" />
-            <element signature="e#4539#4540#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1081,9 +1034,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,14 +1064,11 @@
         <state relative-caret-position="495">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="method#openFile#0;class#MenuController#0" expanded="false" />
             <element signature="method#initialize#0;class#MenuController#0" expanded="false" />
             <element signature="method#saveFile#0;class#MenuController#0" expanded="false" />
             <element signature="method#saveFileAs#0;class#MenuController#0" expanded="false" />
             <element signature="method#cut#0;class#MenuController#0" expanded="false" />
             <element signature="method#copy#0;class#MenuController#0" expanded="false" />
-            <element signature="e#4509#4510#0" expanded="true" />
-            <element signature="e#4539#4540#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1129,9 +1077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,9 +1106,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,11 +1255,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1925">
+          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1324,47 +1266,9 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="998">
+        <state relative-caret-position="1210">
           <caret line="22" column="80" lean-forward="false" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="80" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3245">
-          <caret line="139" column="22" lean-forward="false" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
-          <folding>
-            <element signature="method#openFile#0;class#MenuController#0" expanded="false" />
-            <element signature="method#initialize#0;class#MenuController#0" expanded="false" />
-            <element signature="method#saveFile#0;class#MenuController#0" expanded="false" />
-            <element signature="method#saveFileAs#0;class#MenuController#0" expanded="false" />
-            <element signature="method#cut#0;class#MenuController#0" expanded="false" />
-            <element signature="method#copy#0;class#MenuController#0" expanded="false" />
-            <element signature="e#4509#4510#0" expanded="true" />
-            <element signature="e#4539#4540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1757">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Highlighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1373,6 +1277,70 @@
         <state relative-caret-position="275">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="123" column="54" lean-forward="false" selection-start-line="123" selection-start-column="54" selection-end-line="123" selection-end-column="54" />
+          <folding>
+            <element signature="method#initialize#0;class#MenuController#0" expanded="false" />
+            <element signature="method#saveFile#0;class#MenuController#0" expanded="false" />
+            <element signature="method#saveFileAs#0;class#MenuController#0" expanded="false" />
+            <element signature="method#cut#0;class#MenuController#0" expanded="false" />
+            <element signature="method#copy#0;class#MenuController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaParser/JavaLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cppParser/CPP14Lexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cParser/CLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Highlighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

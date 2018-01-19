@@ -8,8 +8,10 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import org.fxmisc.richtext.CodeArea;
 
-import java.awt.*;
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ResourceBundle;
 
 public class MenuController implements Initializable {
@@ -119,33 +121,48 @@ public class MenuController implements Initializable {
 //
 //        }
         System.out.println("FILE: " + chosenFile.getAbsolutePath());
-        String lang;
-        if (chosenFile.getAbsolutePath().endsWith(".py"))
-            lang = "Python";
-        else if (chosenFile.getAbsolutePath().endsWith(".java"))
-            lang = "java";
-        else if (chosenFile.getAbsolutePath().endsWith(".c"))
-            lang = "C";
-        else if (chosenFile.getAbsolutePath().endsWith(".cpp"))
-            lang = "C++";
-        else
-            lang = "!";
+        String lang = Controller.detectLang(chosenFile);
 
-        if (lang.equals("Python")){
-            System.out.println("IS PYTHON");
-            try {
-                Console console = System.console();
-                if(console == null && !GraphicsEnvironment.isHeadless()){
-                    Runtime.getRuntime().exec(new String[]{"/usr/bin/terminal", "python3 ", chosenFile.getAbsolutePath()});
-                }else{
-                    System.out.println("Program has ended, please type 'exit' to close the console");
+        switch (lang) {
+            case "Python":
+                System.out.println("IS PYTHON");
+                System.out.println(chosenFile.getAbsolutePath());
+
+                try {
+                    String[] command = {"gnome-terminal", "-x", "python3", chosenFile.getAbsolutePath()};
+                    Process proc = new ProcessBuilder(command).start();
+
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
+                break;
+            case "C++":
+            case "C":
+                System.out.println("IS CPP");
+                System.out.println(chosenFile.getAbsolutePath());
 
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+                try {
+                    String[] command = {"gnome-terminal", "-x", "gcc", "-o", chosenFile.getName().substring(0, chosenFile.getName().indexOf(".")), chosenFile.getAbsolutePath()};
+                    Process proc = new ProcessBuilder(command).start();
+                    proc = new ProcessBuilder("./" + chosenFile.getName().substring(0, chosenFile.getName().indexOf("."))).start();
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                break;
+            case "java":
+                System.out.println("IS java");
+                System.out.println(chosenFile.getAbsolutePath());
+
+                try {
+                    String[] command = {"gnome-terminal", "-x", "java", "-c", chosenFile.getName().substring(0, chosenFile.getName().indexOf(".")), chosenFile.getAbsolutePath()};
+                    Process proc = new ProcessBuilder(command).start();
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                break;
         }
-
     }
     @FXML
     void exit(){

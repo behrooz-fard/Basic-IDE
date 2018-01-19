@@ -9,6 +9,20 @@ import java.io.IOException;
 
 public class Controller {
 
+    static String detectLang(File file){
+        String lang;
+        if (file.getAbsolutePath().endsWith(".py"))
+            lang = "Python";
+        else if (file.getAbsolutePath().endsWith(".java"))
+            lang = "java";
+        else if (file.getAbsolutePath().endsWith(".c"))
+            lang = "C";
+        else if (file.getAbsolutePath().endsWith(".cpp"))
+            lang = "C++";
+        else
+            lang = "!";
+        return lang;
+    }
     static void openFileInTextEditor(File file) {
         //get code area
         CodeArea codeArea = (CodeArea) Main.scene.lookup("#mainCodeArea");
@@ -24,7 +38,22 @@ public class Controller {
             //put text in code area
             codeArea.replaceText(str);
             Highlighter.setString(str);
-            Highlighter.Highlight();
+            String lang = detectLang(file);
+
+            switch (lang){
+                case "C":
+                    Highlighter.CHighlight();
+                    break;
+                case "C++":
+                    Highlighter.CPPHighlight();
+                    break;
+                case "Python":
+                    Highlighter.PythonHighlight();
+                    break;
+                default:
+                    Highlighter.JavaHighlight();
+                    break;
+            }
 
 
         } catch (FileNotFoundException e) {
