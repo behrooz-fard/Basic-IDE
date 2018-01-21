@@ -11,12 +11,11 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 import java.io.File;
-import java.io.IOException;
 public class Main extends Application {
-    public static Parent root;
+    private static Parent root;
     public static Scene scene;
     public static String[] margs;
-    private File chosenFile;
+
     @FXML
     private File openFile() {
         //as log
@@ -32,7 +31,7 @@ public class Main extends Application {
                 "*.c", "*.cpp", "*.java", "*.py"
         ));
 
-        chosenFile = chooser.showOpenDialog(new Stage());
+        File chosenFile = chooser.showOpenDialog(new Stage());
         System.out.println(chosenFile.getAbsolutePath() + " SELECTED");
         return chosenFile;
     }
@@ -51,7 +50,7 @@ public class Main extends Application {
     }
 
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) {
 
         launch(args);
 

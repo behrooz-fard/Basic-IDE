@@ -1,45 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
-<?import javafx.scene.input.KeyCodeCombination?>
-<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.VBox?>
 <?import org.fxmisc.richtext.CodeArea?>
-<?import javafx.scene.web.WebView?>
 <VBox id="main_Vbox"
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="sample.MenuController">
 
     <MenuBar fx:id="menuBar" onKeyPressed="#handleInput">
-        <menus>
-            <Menu text="File">
-                <items>
-                    <MenuItem text="New"/>
-                    <MenuItem text="Open" onAction="#openFile" accelerator="Shortcut+O"/>
-                    <MenuItem text="Save" onAction="#saveFile" accelerator="Shortcut+s"/>
-                    <MenuItem text="Save As" onAction="#saveFileAs" accelerator="Shortcut+Shift+s"/>
-                    <SeparatorMenuItem/>
-                    <MenuItem text="Exit" onAction="#exit" accelerator="Alt + F4"/>
-                </items>
-            </Menu>
-            <Menu text="Edit">
-                <items>
-                    <MenuItem text="Cut" onAction="#cut" accelerator="Shortcut+x"/>
-                    <MenuItem text="Copy" onAction="#copy" accelerator="Shortcut+c"/>
-                    <MenuItem text="Paste" onAction="#paste" accelerator="Shortcut+v"/>
-                    <SeparatorMenuItem/>
-                    <MenuItem text="Find"/>
-                    <MenuItem text="Replace"/>
-                </items>
-            </Menu>
-            <Menu text="Run">
-                <items>
-                    <MenuItem text="Compile" onAction="#compile" accelerator="Shift + F9"/>
-                    <MenuItem text="Run"/>
-                </items>
-            </Menu>
-        </menus>
+        <Menu text="File">
+            <items>
+                <MenuItem text="New"/>
+                <MenuItem text="Open" onAction="#openFile" accelerator="Shortcut+O"/>
+                <MenuItem text="Save" onAction="#saveFile" accelerator="Shortcut+s"/>
+                <MenuItem text="Save As" onAction="#saveFileAs" accelerator="Shortcut+Shift+s"/>
+                <SeparatorMenuItem/>
+                <MenuItem text="Exit" onAction="#exit" accelerator="Alt + F4"/>
+            </items>
+        </Menu>
+        <Menu text="Edit">
+            <items>
+                <MenuItem text="Cut" onAction="#cut" accelerator="Shortcut+x"/>
+                <MenuItem text="Copy" onAction="#copy" accelerator="Shortcut+c"/>
+                <MenuItem text="Paste" onAction="#paste" accelerator="Shortcut+v"/>
+                <SeparatorMenuItem/>
+                <MenuItem text="Find"/>
+                <MenuItem text="Replace"/>
+            </items>
+        </Menu>
+        <Menu text="Run">
+            <items>
+                <MenuItem text="Compile" onAction="#compile" accelerator="Shift + F9"/>
+                <MenuItem text="Run"/>
+            </items>
+        </Menu>
     </MenuBar>
     <!--<GridPane>-->
 

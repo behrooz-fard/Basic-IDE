@@ -19,7 +19,7 @@ public class MenuController implements Initializable {
     @FXML
     private MenuBar menuBar;
     private File chosenFile;
-    public CodeArea mainCodeArea;
+    private CodeArea mainCodeArea;
 
 
     @FXML

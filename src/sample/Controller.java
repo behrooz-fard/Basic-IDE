@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class Controller {
+class Controller {
 
     static String detectLang(File file){
         String lang;

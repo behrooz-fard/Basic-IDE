@@ -9,10 +9,10 @@ import org.antlr.v4.runtime.Token;
 import org.fxmisc.richtext.CodeArea;
 import pythonParser.Python3Lexer;
 
-public class Highlighter {
-    static String t;
+class Highlighter {
+    private static String t;
     //    static CodeArea codeArea = new CodeArea();
-    static CodeArea highlighterCodeArea = (CodeArea) Main.scene.lookup("#highlighterCodeArea");
+    private static final CodeArea highlighterCodeArea = (CodeArea) Main.scene.lookup("#highlighterCodeArea");
 
     public static void setString(String t) {
         Highlighter.t = t;
