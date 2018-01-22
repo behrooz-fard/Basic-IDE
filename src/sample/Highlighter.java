@@ -26,7 +26,10 @@ class Highlighter {
         Token token;
         while (true) {
             token = lexer.nextToken();
-            System.out.println(token);
+            highlighterCodeArea.appendText(
+                    "\ntext: " + token.getText() +
+                            "\t\ttype: " + token.getType() +
+                            "\t\tline: " + token.getLine() + "\n");
             // Exit in EOF
             if (token.getType() == -1)
                 break;
@@ -55,7 +58,10 @@ class Highlighter {
         Token token;
         while (true) {
             token = lexer.nextToken();
-            System.out.println(token);
+            highlighterCodeArea.appendText(
+                    "\ntext: " + token.getText() +
+                            "\t\ttype: " + token.getType() +
+                            "\t\tline: " + token.getLine() + "\n");
             // Exit in EOF
             if (token.getType() == -1)
                 break;
@@ -68,7 +74,10 @@ class Highlighter {
         Token token;
         while (true) {
             token = lexer.nextToken();
-            System.out.println(token);
+            highlighterCodeArea.appendText(
+                    "\ntext: " + token.getText() +
+                            "\t\ttype: " + token.getType() +
+                            "\t\tline: " + token.getLine() + "\n");
             // Exit in EOF
             if (token.getType() == -1)
                 break;
