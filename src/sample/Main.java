@@ -41,6 +41,7 @@ public class Main extends Application {
         root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         scene = new Scene(root, 2000, 1000);
         primaryStage.setTitle("Basic IDE");
+        primaryStage.setMaximized(true);
         primaryStage.setScene(scene);
         Node codeArea = scene.lookup("#mainCodeArea");
         codeArea.autosize();
